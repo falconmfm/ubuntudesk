@@ -4,6 +4,6 @@ Name=SoapUI
 GenericName=Soap UI
 Comment=Herramienta para pruebas funcionales SOA
 Exec=/opt/soapui/soapui.launch.sh
-Icon=~/Icons/soapui-logo.png
+Icon=/home/wso2/Icons/soapui-logo.png
 Terminal=true
 Type=Application

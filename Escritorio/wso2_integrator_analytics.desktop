@@ -5,7 +5,7 @@ Name=wso2ei 6.1.1 - Analytics
 GenericName=WSO2EI - Anlytics
 Comment=WSO2 Integrator 6.1.1 - Analytics
 Terminal=true
-Icon=~/Icons/logo-wso2.png
+Icon=/home/wso2/Icons/logo-wso2.png
 Type=Application
 Actions=StartEIServer;StopEIServer;
 
