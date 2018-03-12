@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Exec=/opt/jmeter/jmeter.launch.sh
+Name=Jmeter
+GenericName=Apache Jmeter
+Comment=Pruebas de carga
+Icon=~/Icons/jmeter_square.png
+Terminal=true
+Type=Application

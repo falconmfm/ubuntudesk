@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=SoapUI
+GenericName=Soap UI
+Comment=Herramienta para pruebas funcionales SOA
+Exec=/opt/soapui/soapui.launch.sh
+Icon=~/Icons/soapui-logo.png
+Terminal=true
+Type=Application

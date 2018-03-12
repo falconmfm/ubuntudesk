@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Exec=env JAVA_HOME=/opt/java /opt/wso2ei-6.1.1-analytics/wso2/analytics/bin/wso2server.sh
+Name=wso2ei 6.1.1 - Analytics
+GenericName=WSO2EI - Anlytics
+Comment=WSO2 Integrator 6.1.1 - Analytics
+Terminal=true
+Icon=~/Icons/logo-wso2.png
+Type=Application
+Actions=StartEIServer;StopEIServer;
+
+[Desktop Action StopEIServer]
+Name=Parar el servidor WSO2 EI - Analytics
+Exec=env JAVA_HOME=/opt/java /opt/wso2ei-6.1.1-analytics/wso2/analytics/bin/wso2server.sh stop
+
+
+[Desktop Action StartEIServer]
+Name=Arrancar el servidor WSO2 EI - Analytics
+Exec=env JAVA_HOME=/opt/java /opt/wso2ei-6.1.1-analytics/wso2/analytics/bin/wso2server.sh start
+
