@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[es_ES]=/home/wso2/Icons/logo-wso2.jpeg
+Name[es_ES]=WSO2 Tooling
+Exec=env JAVA_HOME=/opt/java PATH=/opt/java/bin:$PATH /opt/eclipse/eclipse
+Comment[es_ES]=WSO2 Enterprise Integrator Tooling
+Name=wso2 ei
+Comment=WSO2 Enterprise Integrator Tooling
+Icon=/home/wso2/Icons/logo-wso2.jpeg
+Actions=StartServer;StopServer;
+
+[Desktop Action StopServer]
+Name=Detener el WSO2 Tooling
+Exec=env JAVA_HOME=/opt/java /opt/wso2ei-6.1.1/bin/integrator.sh stop
+
+
+[Desktop Action StartServer]
+Name=Arrancar el servidor WSO2 Enterprise Integrator
+Exec=env JAVA_HOME=/opt/java /opt/wso2ei-6.1.1/bin/integrator.sh start
